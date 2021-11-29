@@ -10,6 +10,10 @@
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thuri0n/react-component-library.git"
+  },
   "description": "",
   "scripts": {
     "build": "rollup -c",
@@ -23,10 +27,6 @@
     "build:esm": "tsc",
     "build:cjs": "tsc --module commonjs --outDir lib/cjs",
     "build3": "parcel build src/index.ts --dist-dir build"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/HarveyD/react-component-library.git"
   },
   "author": "Flex Sky",
   "license": "MIT",
